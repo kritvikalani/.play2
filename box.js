@@ -15,7 +15,7 @@ class Box {
         this.x= x;
         this.y= y;
 
-        this.image= loadImage("sprites/dustbingreen.png")
+        this.image= loadImage("dustbingreen.png")
 
         World.add(world, this.body1);
         World.add(world, this.body2);
